@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context=".donorregister"
+        android:background="@drawable/signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="52dp"
+            android:fontFamily="@font/stolzl"
+            android:text="Sign Up"
+            android:textColor="@color/themegreen"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="170sp"
+            >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="0dp">
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <EditText
+                        android:id="@+id/donorfn"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="20dp"
+                        android:autofillHints="First Name"
+                        android:background="@color/themegreen"
+                        android:fontFamily="@font/stolzl"
+                        android:hint=" First Name"
+                        android:inputType="text"
+                        android:shadowColor="@color/themegreen"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/donorln"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="80dp"
+                        android:autofillHints="Last Name"
+                        android:background="@color/themegreen"
+                        android:fontFamily="@font/stolzl"
+
+                        android:hint=" Last Name"
+                        android:shadowColor="@color/themegreen"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/donoremail"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="140dp"
+                        android:autofillHints="Email"
+                        android:background="@color/themegreen"
+                        android:fontFamily="@font/stolzl"
+                        android:hint=" Email"
+                        android:inputType="textEmailAddress"
+                        android:shadowColor="@color/white"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/donorpassword"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="200dp"
+                        android:autofillHints="Enter Password"
+                        android:background="@color/themegreen"
+                        android:fontFamily="@font/stolzl"
+                        android:hint=" Enter Password"
+                        android:inputType="textPassword"
+                        android:shadowColor="@color/themegreen"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/donorcpassword"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="260dp"
+                        android:autofillHints="Enter Confirm Password"
+                        android:background="@color/themegreen"
+                        android:fontFamily="@font/stolzl"
+                        android:hint=" Enter Confirm Password"
+                        android:inputType="textPassword"
+                        android:shadowColor="@color/themegreen"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/donormob"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="320dp"
+                        android:autofillHints="Enter Password"
+                        android:background="@color/themegreen"
+                        android:fontFamily="@font/stolzl"
+                        android:hint=" 10 Digits Mobile Number"
+                        android:inputType="number"
+                        android:shadowColor="@color/white"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <EditText
+                        android:id="@+id/donoraddress"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="380dp"
+                        android:autofillHints="Year of Study"
+                        android:background="@color/themegreen"
+                        android:fontFamily="@font/stolzl"
+                        android:hint=" Full Address"
+                        android:inputType="text"
+                        android:shadowColor="@color/themegreen"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="430dp"
+                        android:fontFamily="@font/stolzl"
+                        android:gravity="center"
+                        android:text="* All fields are required and must be filled\n* Your password must be greater than 8 characters\n* Enter Address with plot no. and pincode"
+                        android:textColor="@color/themegreen"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/donorsignup"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="490dp"
+                        android:background="@color/white"
+                        android:fontFamily="@font/stolzl"
+                        android:shadowColor="#A8A8A8"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="Sign Up"
+                        android:textColor="@color/themegreen"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText" />
+
+
+                    <Button
+                        android:id="@+id/donorloginpage"
+                        android:layout_width="250dp"
+                        android:layout_height="35dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="535dp"
+                        android:background="#00ffffff"
+                        android:fontFamily="@font/stolzl"
+                        android:shadowRadius="5"
+                        android:text="Already Have Account?"
+                        android:textColor="#008080"
+                        android:textSize="16sp"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="590dp"
+                        android:text="..."
+                        android:textColor="@color/white"
+                        android:textSize="40sp" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>

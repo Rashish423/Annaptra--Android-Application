@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userselection"
+    android:background="@drawable/login">
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/stolzl"
+        android:text="Donor Login"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"
+        android:autofillHints="Email"
+        android:fontFamily="@font/stolzl"
+        android:shadowColor="#000000"
+        android:text="Email"
+        android:textColor="@color/themegreen"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/donoremail"
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:autofillHints="Email"
+        android:background="@color/themegreen"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/stolzl"
+        android:text="Password"
+        android:textColor="@color/themegreen"
+        android:textSize="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:id="@+id/donorpassword"
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="410dp"
+        android:background="@color/themegreen"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btndonorlogin"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:background="@color/white"
+        android:fontFamily="@font/stolzl"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Login"
+        android:textColor="@color/themegreen"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="490dp">
+
+        <TextView
+            android:id="@+id/donorforgetpassword"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="#00ffffff"
+            android:fontFamily="@font/stolzl"
+            android:gravity="center"
+            android:shadowColor="#A8A8A8"
+            android:text="Forget Password ?"
+            android:textColor="#008080"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btndonorcreateaccount"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:background="#00ffffff"
+            android:fontFamily="@font/stolzl"
+            android:shadowColor="#A8A8A8"
+            android:text="Don't have an Account ?"
+            android:textColor="#008080"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnreceiverloginpage"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp"
+            android:background="@color/themegreen"
+            android:fontFamily="@font/stolzl"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Login as RECEIVER"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+</RelativeLayout>

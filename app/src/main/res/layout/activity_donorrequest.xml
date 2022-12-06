@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".donorrequest">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/themegreen"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donate"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#ffff"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp">
+
+        <EditText
+            android:id="@+id/dfoodname"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/themegreen"
+            android:fontFamily="@font/stolzl"
+            android:hint=" Name of Food"
+            android:inputType="text"
+            android:shadowColor="@color/themegreen"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/dfoodqty"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/themegreen"
+            android:fontFamily="@font/stolzl"
+            android:hint=" Quantity in KGs"
+            android:inputType="number"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/numofpeople"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="140dp"
+            android:background="@color/themegreen"
+            android:fontFamily="@font/stolzl"
+            android:hint=" No. of People can Feed"
+            android:inputType="number"
+            android:shadowColor="@color/white"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/daddress"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/themegreen"
+            android:fontFamily="@font/stolzl"
+            android:hint=" Address"
+            android:inputType="text"
+            android:shadowColor="@color/white"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/getdlt"
+            android:layout_width="150dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/stolzl"
+            android:hint="Your"
+            android:inputType="number"
+            android:shadowColor="@color/white"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textAlignment="center"
+            android:textColor="@color/themegreen"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/getdlg"
+            android:layout_width="150dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/stolzl"
+            android:hint="location"
+            android:inputType="number"
+            android:shadowColor="@color/white"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:textAlignment="center"
+            android:textColor="@color/themegreen"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/getdlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/btnback"
+            android:fontFamily="@font/stolzl"
+            android:icon="@drawable/locationicon"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Share location"
+            android:textColor="@color/themegreen"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/dsendrequest"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="330dp"
+            android:background="@drawable/btnback"
+            android:fontFamily="@font/stolzl"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Send Request"
+            android:textColor="@color/themegreen"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "621742971626",
+    "firebase_url": "https://annapatrabo-4e59d-default-rtdb.firebaseio.com",
+    "project_id": "annapatrabo-4e59d",
+    "storage_bucket": "annapatrabo-4e59d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621742971626:android:3f82022dc3b3cd4acd1593",
+        "android_client_info": {
+          "package_name": "com.example.annapatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621742971626-q045eheqslbqua2s97f02tfv7omf1kdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHJWgkE82VFlMa6jfhscDp6A9GBH-Wgdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621742971626-q045eheqslbqua2s97f02tfv7omf1kdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
